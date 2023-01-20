@@ -96,13 +96,13 @@ global();
       
 let back=Math.ceil(Math.random()*26);
 background[0].onclick=function(){back=Math.ceil(Math.random()*26);
-                               document.body.style.cssText=`background-image:url('images/photo${back}.jpg');background-repeat: no-repeat;background-size: 100% 600px;`;
+                               document.body.style.cssText=`background-image:url('images/photo${back}.jpg');background-repeat:repeat;background-size: 100% 1400px;`;
 }
 
 /****************************/
 /**********next level********/
 /****************************/
-
+win1.onclick=function(){next2.click()}
 next2.onclick=function(){
 
        /*************RANDOM COLOR*********/
