@@ -61,7 +61,7 @@ for(let i=0; i<g.length ;i++){
                                          if(x[0]===x[1] && g[i].className!==pre.className){g[i].onclick=function(){};
                                                                                            pre.onclick=function(){};
                                                                                            ab+=1;
-                                                                                           move[1].textContent =Number(move[1].textContent)+1;
+                                                                                           move[1].textContent =Number(move[1].textContent)+10;
                                                                                            }
                                          else { move[0].textContent-=1;
                                                 pre.style.cssText=`transform:rotatey(0deg);`;
@@ -119,7 +119,7 @@ next2.onclick=function(){
                 for(let i=0;i<4;i++){
                 container[0].innerHTML=container[0].innerHTML+`<div class="g"><div class="box h${incr2}"><div class="face front"></div><div class="face back">8</div></div></div>`
                 faseBack[15+incr2].textContent=text[incr];
-                console.log(i);
+                console.log(text[incr]);
                 incr=incr+1;incr2=incr2+1
                 if(incr>=text.length){incr=0};};
               
