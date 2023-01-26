@@ -190,4 +190,5 @@ lose.onclick=function(){game=game-1;
                         pixel=(Math.ceil(Math.sqrt(g.length)))*98;
                         container[0].style.cssText=`width:${pixel}px;height:${pixel}px;`;
                         move[1].textContent=score;
+                        ab=0;
                        }
